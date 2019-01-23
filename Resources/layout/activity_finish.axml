@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:minWidth="25px"
+    android:minHeight="25px"
+	android:background="@color/my_medium_teal">
+	<TextView
+		android:text="Top 10 Scores"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:textAlignment="center"
+		android:gravity="center_vertical|center"
+		android:id="@+id/appTitle"
+		android:textSize="20dp"
+		android:textColor="@color/my_ivory"
+		android:background="#ccf37a0e"
+		android:shadowColor="#000000"
+		android:shadowDx="2"
+		android:shadowDy="2"
+		android:shadowRadius="3"/>
+	<ListView
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+		android:textColor="@color/my_ivory"
+        android:smoothScrollbar="true"
+        android:choiceMode="singleChoice"
+        android:id="@+id/topTen" />
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout5">
+		<Button
+			android:text="Reset"
+			android:background="@drawable/Xred"
+			android:layout_width="wrap_content"
+			android:layout_height="40dp"
+			android:layout_marginLeft="10dp"
+			android:textColor="@color/my_ivory"
+			android:shadowColor="#000000"
+			android:shadowDx="2"
+			android:shadowDy="2"
+			android:shadowRadius="3"
+			android:id="@+id/resetButton" />
+		<Button
+			android:text="New Game"
+			android:background="@drawable/Xgold"
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:textColor="@color/my_ivory"
+			android:shadowColor="#000000"
+			android:shadowDx="2"
+			android:shadowDy="2"
+			android:shadowRadius="3"
+			android:id="@+id/newButton" />
+	</LinearLayout>
+</LinearLayout>

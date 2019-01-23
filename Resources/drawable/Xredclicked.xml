@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item android:drawable="@drawable/Xshadow"/>
+  <item
+    android:drawable="@drawable/Xroundredclicked"
+    android:bottom="5px"/>
+  <!--<item android:drawable="@drawable/Xbuttonstates"/>-->
+
+</layer-list>
