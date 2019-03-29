@@ -4,6 +4,8 @@
 * In the course of creating this application I relied on a lot of Java code examples written for Android Studio native apps, as there are far less examples and solutions for Xamarin.android native apps, and the Xamarin.android documentation is lacking at times or is in a state of rapid evolution since Microsoft took over the Xamarin platform. I simply found examples in Java and adapted/refactored the code to C# to successfully implement my ideas and solve my problems in many instances.
 * This app features a richly-styled UI and sound effects. I created the graphics using Adobe photoshop.
 
+## Emulator Screenshots:
+
 ![Emulator Screenshots](/images/Capture1.PNG)
 ![Emulator Screenshots](/images/Capture2.PNG)
 ![Emulator Screenshots](/images/Capture3.PNG)
